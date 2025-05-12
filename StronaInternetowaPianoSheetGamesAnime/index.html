@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PianoSheetGamesAnime</title>
+    <style>
+        header{
+            padding: 10px 5%;
+            background-color:darkblue;
+            color: white;
+            position:fixed;
+            left:0;
+            top:0;
+            width:100%;
+        }
+        header>*{
+            display: inline-block;
+            width:450px;
+        }
+        header a{
+            text-decoration: none;
+            color: white;
+            margin:0 10px;
+        }
+        body{
+            margin: 300px 0 0 0;
+        }
+        main{
+            margin:50px 20%;
+            background-color: aliceblue;
+            border-radius: 20px;
+            padding: 50px;
+            min-height: calc(100vh - 92px - 80px - 100px);
+        }
+        h2{
+            font-size:40px;
+            justify-content:center;
+            
+        }
+        h3{
+            display:flex;
+            justify-content:center;
+        }
+        article{
+            margin: 100px;
+            scroll-margin-top: 150px;
+            display:flex;
+            justify-content:space-between;
+            align-items:start;
+        }
+        span{
+            padding: 250px;
+            font-size: 40px;
+            justify-content:center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tytuł strony</h1>
+        <div class="emptiness"></div>
+        <nav>
+            <a href="#HollowKnight_MainTheme">Hollow Knight</a>
+            <a href="#DST_MainTheme">Dont Starve Together</a>
+            <a href="#Celeste_Awake">Celeste</a>
+        </nav>
+    </header>
+    <main>
+        
+        <article id="HollowKnight_MainTheme">
+            <img src="hollowknightmainthemepianosheet.png">
+            <div>
+                <h2>Hollow Knight</h2>
+                <h3>Main Theme</h3>
+                <h3>By: Christopher Larkin</h3>
+            </div>
+        </article>
+        
+        <article id="DST_MainTheme">
+            <img src="DSTMainThemeSheet.png">
+            <div>
+                <span>Don't Starve Together</span>
+                <span>Main Theme</span>
+                <span>By: </span>
+            </div>
+        </article>
+        
+        <article id="Celeste_Awake">
+            <img src="CelesteAwakePianoSheet.png">
+            <div>
+                <h2>Celeste</h2>
+                <h3>Awake</h3>
+                <h3>By: Lena Raine</h3>
+            </div>
+        </article>
+    </main>
+</body>
+</html>
